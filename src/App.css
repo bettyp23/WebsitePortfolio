@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+/*AboutMe.css*/
+.container {
+  display: flex;
+  justify-content: flex-start; /* Align content to the left */
+  align-items: flex-start; /* Align content to the top */
+}
+
+.container h3, 
+.container p {
+  text-align: left; /* Ensure text inside is also aligned to the left */
+  max-width: 400px; /* Set a maximum width to prevent content from stretching too wide */
+}
+
+#aboutMe {
+  padding: 20px;
+  margin-left: 50px; /* Adjust this value to set how far from the left edge */
+}
+
+
+
+
+
+.nav-link-hover:hover {
+  color: #ffdd99; /* Hover color */
+  transform: scale(1.1); /* Slightly enlarge the text on hover */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Add subtle shadow */
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
